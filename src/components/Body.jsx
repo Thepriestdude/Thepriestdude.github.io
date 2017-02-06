@@ -34,11 +34,12 @@ export default class Body extends Component {
           </Col>
 
           <Col xs={12} sm={6} md={6} lg={6}>
-            <div className="info">
-              <a href={cv} className="black" download="Oskar_Selberg.pdf" target="_blank">
+            <a href={cv} className="black" download="Oskar_Selberg.pdf" target="_blank">
+              <div className="info">
                 <i className="fa fa-file-text-o bigger" aria-hidden="true"/>
-              </a> &nbsp; &nbsp;Download my CV
-            </div>
+                &nbsp; &nbsp;Download my CV
+              </div>
+            </a>
           </Col>
         </Row>
       </div>

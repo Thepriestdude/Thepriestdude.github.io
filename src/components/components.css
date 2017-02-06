@@ -42,6 +42,7 @@
 }
 .black:hover {
   color: rgb(123,123,123);
+  text-decoration: none;
 }
 .black:focus {
   color: black;
